@@ -20,28 +20,28 @@ def growth_rate (x,y):
 
 #Start building up the logic giving out the possible choices
 print("CHOOSE YOUR CALCULATION")
-print("Addition")
-print("Subtraction")
-print("Multiplication")
-print("Division")
-print("Power")
-print("Growth Rate")
+print("addition")
+print("subtraction")
+print("multiplication")
+print("division")
+print("power")
+print("growth rate")
 
 #Using a while loop for automatizing everything
 while True:
 
-    choice = input("ENTER YOUR CHOISE: ")
+    choice = input("ENTER YOUR CHOICE: ")
 
-    if choice.upper() in ("A","ADD","ADDITION",
-                          "S","SUB","SUBTRACT","SUBTRACTION",
-                          "M","MULT","MULTIPLY","MULTIPLICATION",
-                          "D","DIV","DIVIDE", "DIVISION",
+    if choice.upper() in ("A", "ADD", "ADDITION",
+                          "S", "SUB", "SUBTRACT", "SUBTRACTION",
+                          "M", "MULT", "MULTIPLY", "MULTIPLICATION",
+                          "D", "DIV", "DIVIDE", "DIVISION",
                           "P", "POWER",
                           "G", "GROWTH", "GROWTH RATE", "GROWTH_RATE"):
 
-        num_1 = float(input("Enter first number: "))
+        num_1 = float(input("First number: "))
 
-        num_2 = float(input("Enter second number: "))
+        num_2 = float(input("Second number: "))
 
         if choice.upper() in ("A","ADD","ADDITION"):
             print(num_1, "+", num_2, "=", add(num_1,num_2))
@@ -69,5 +69,5 @@ while True:
     next_calculation = input("Wanna do another calculation?: (yes / no) ")
 
     #Logic for breaking the loop
-    if next_calculation.upper() in ("N", "NO", "NOPE", "NO WAY", "HELL NO", "THAT'S ENOUGH"):
+    if next_calculation.upper() in ("N", "NO", "NOPE"):
         break
