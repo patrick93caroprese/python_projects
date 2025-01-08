@@ -30,7 +30,7 @@ while True:
     
         
 #Rules   
-        rules = input("\nLet's play the game. You'll be given a range of number between 1 and 10 in which an hidden_number must be found. \n\nType OK to continue otherwise NO to restart the game: ")
+        rules = input("\nLet's play the game. You'll be given a range of numbers between 1 and 10 in which an hidden_number must be found. \n\nType OK to continue otherwise NO to restart the game: ")
         if rules.isdigit():
             print('Invalid input. Restart the game.')
             continue
