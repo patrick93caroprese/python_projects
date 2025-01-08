@@ -4,17 +4,7 @@
 # In[1]:
 
 
-#MY VERSION OF THE GAME
-
-#Rules of the game:
-#1️⃣ Players have 3 attempts to guess the hidden number.
-#2️⃣ If a player guesses correctly, the game should congratulate them and end immediately. 🎉
-#3️⃣ If the player fails to guess the number after 3 attempts, the game will reveal the hidden number and end. 🚫
-
-#💡 Your Challenge:
-#Write a Python program to implement this game! 🐍
-
-#The hidden_number is RANDOM#
+# HIDDEN NUMBER - THE GAME #
 
 
 #Welcoming the player
